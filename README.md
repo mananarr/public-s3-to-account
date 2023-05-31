@@ -1,6 +1,6 @@
 # Public S3 to Account ID
 
-A python script to enumerate the AWS Account ID from a public S3 bucket/object.
+A python script to enumerate the AWS Account ID from a Public S3 bucket/object.
 
 # Setup
 
@@ -31,8 +31,8 @@ A python script to enumerate the AWS Account ID from a public S3 bucket/object.
 # Usage
 
 ```
-$ python3 public-s3-to-account -role <assume_role_arn> -resource <public_bucket_name>
-$ python3 public-s3-to-account -role <assume_role_arn> -resource <public_object_path_with_bucket_name>
-$ python3 public-s3-to-account -role <assume_role_arn> -resource bucket1,bucket2,object1,object2 -debug 1
-$ python3 public-s3-to-account -role <assume_role_arn> -resource bucket1,bucket2,object1,object2 -debug 1 -profile <awscli_profile>
+$ python3 public-s3-to-account.py -role <assume_role_arn> -resource <public_bucket_name>
+$ python3 public-s3-to-account.py -role <assume_role_arn> -resource <public_object_path_with_bucket_name>
+$ python3 public-s3-to-account.py -role <assume_role_arn> -resource bucket1,bucket2,object1,object2 -debug 1
+$ python3 public-s3-to-account.py -role <assume_role_arn> -resource bucket1,bucket2,object1,object2 -debug 1 -profile <awscli_profile>
 ```
